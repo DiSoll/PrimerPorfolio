@@ -1,0 +1,149 @@
+
+
+/* --------------------------------MAX WIDTH : 390--------------------------*/
+
+/* Presentacion */
+@media screen and (max-width: 390px) {
+    .tamaño_presentacion_titulo{
+        width: 350px;
+        padding-left: 50px;
+    }
+    h1 {
+      font-size: 20px;
+      padding-left: 0;
+      text-align: center;
+    }
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding-top: 50px;
+    }
+    .contenedor_padre{
+        height: 440px;
+        width: 380px;
+    }
+    .contenedor_hijo1{
+        width: 50px; 
+    }
+    .tamaño_iconos{
+        width: 40px;
+        height: 40px;
+    }
+    .contenedor_hijo2{
+        padding-left: 25px;
+        width: 280px;
+    }
+    .posicion_imagen{
+        padding-left: 10px;
+        padding-top:30px;
+    }
+    .tamaño{
+        width: 280px;
+        height: 200px;
+    }
+    .contenedor_texto{
+        height: 100px;
+        width: 260px;
+    }
+    div h2{
+        font-size: 20px;
+    }
+    div p{
+        font-size: 15px;
+    }
+    .contenedor_estrella{
+        left: 245px;
+        top: 75px;  
+    }
+    .tamaño_estrella_responsive{
+        width: 50px;
+        height: 50px;
+    }
+
+    /* Proyectos */
+    .tamaño_imagen{
+        width: 290px;
+        height: 220px;
+    }
+    .contenedor_estrella1{
+        left: 150px;
+    }
+
+    /* Contacto */
+    .contenedor_contacto{
+        width: 300px;
+    }
+    .titulo_contacto{
+        padding-left: 50px;
+        font-size: 30px;
+    }
+    .texto_contacto{
+        font-size: 20px;
+        text-align: center;
+        padding-left: 80px;
+    }
+    .fondo{
+        width: 330px;
+    }
+    .campo input, .campo textarea{
+        width: 270px;
+        padding: 2px;
+    }
+    .imagen_footer{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/* --------------------------------MIN WIDTH -MAX WIDTH --------------------------*/
+
+/* Presentacion */
+@media screen and (min-width : 768px) and (max-width: 1024px ){
+    nav ul{
+        justify-content: center; 
+        padding-top: 50px;
+        gap: 22px;
+        padding-left: 50px;
+    }
+    h1{
+       font-size: 38px;
+    }
+    .contenedor_hijo2{
+        width: 550px;
+    }
+    .contenedor_estrella{
+        left: 500px;
+    }
+    .contenedor_texto{
+        width: 500px;
+        padding-left: 20px;
+    }
+    
+ /* Proyectos */
+   .tamaño_imagen{
+        width: 590px;
+        height: 320px;
+    }
+    .contenedor_estrella1{
+        left: 300px;
+    }
+
+/* Contacto */
+    .titulo_contacto{
+        padding-left: 80px;
+    }
+    .texto_contacto{
+        font-size: 25px;
+        padding-top: 40px;
+    }
+    .contenedor_contacto{
+        width: 600px;
+        padding-left: 100px;
+        padding-top: 20px;
+    }
+    #Contenedor_formulario{
+        padding-top: 90px;
+    }
+}
+
