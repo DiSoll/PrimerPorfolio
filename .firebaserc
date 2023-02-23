@@ -1,5 +1,9 @@
 {
   "projects": {
+<<<<<<< HEAD
     "default": "mi-porfolio2023"
+=======
+    "default": "miporfolio-2023"
+>>>>>>> f25a365bd5a4da46278299b52696debe1e85090c
   }
 }
